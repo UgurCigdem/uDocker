@@ -132,11 +132,6 @@ uDocker bringt eine übersichtliche Seite mit, die alle Steuer-Befehle auflistet
 </p>
 
 <p align="center">
-  <img src="screenshots/uebersicht.png" alt="uDocker — Desktop-Fenster und Zugriff vom Browser" width="760"><br>
-  <em>Dieselbe Oberfläche im Browser eines anderen Geräts — über die Web-Freigabe</em>
-</p>
-
-<p align="center">
   <img src="screenshots/2026-06-05_20-03-25-608.png" alt="uDocker — eingebaute API-Doku mit allen Steuer-Befehlen" width="760"><br>
   <em>Eingebaute Übersicht der Steuer-Befehle — damit Assistenten wie Claude Code Modelle automatisch öffnen und schließen können</em>
 </p>
