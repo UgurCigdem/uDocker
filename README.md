@@ -9,9 +9,13 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Linux%20%7C%20macOS-unterst%C3%BCtzt-lightgrey.svg" alt="Plattform">
+  <img src="https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20macOS-unterst%C3%BCtzt-lightgrey.svg" alt="Plattform">
   <img src="https://img.shields.io/badge/Preis-kostenlos-brightgreen.svg" alt="Kostenlos">
   <img src="https://img.shields.io/badge/Lizenz-Freeware-blue.svg" alt="Freeware">
+</p>
+
+<p align="center">
+  <a href="https://github.com/UgurCigdem/uDocker/releases/latest"><strong>⬇️ Jetzt herunterladen</strong></a> &nbsp;·&nbsp; Windows · Linux · macOS
 </p>
 
 <p align="center">
@@ -131,6 +135,7 @@ uDocker bringt eine übersichtliche Seite mit, die alle Steuer-Befehle auflistet
   <em>Hauptansicht: Container und Modelle mit Speicheraufteilung, Auslastung und Steuerung per Klick</em>
 </p>
 
+
 <p align="center">
   <img src="screenshots/2026-06-05_20-03-25-608.png" alt="uDocker — eingebaute API-Doku mit allen Steuer-Befehlen" width="760"><br>
   <em>Eingebaute Übersicht der Steuer-Befehle — damit Assistenten wie Claude Code Modelle automatisch öffnen und schließen können</em>
@@ -162,7 +167,10 @@ So sehen Sie sofort, welches Modell sich für welche Aufgabe lohnt — und welch
 
 ### Fertige Version herunterladen
 
-Laden Sie die passende Datei von der [Releases-Seite](https://github.com/ugurat/uDocker/releases) herunter:
+Laden Sie die passende Datei von der **[Releases-Seite](https://github.com/UgurCigdem/uDocker/releases/latest)** herunter (für 64-bit-PCs die `amd64`/`x86_64`-Datei, für ARM-Geräte wie die DGX Spark die `arm64`/`aarch64`-Datei):
+
+**Windows:**
+- `…-setup.exe` herunterladen und ausführen (Installations-Assistent).
 
 **Linux (Ubuntu / Debian):**
 - `.deb` per Doppelklick installieren — oder im Terminal:
