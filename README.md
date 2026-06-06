@@ -140,7 +140,7 @@ uDocker bringt eine übersichtliche Seite mit, die alle Steuer-Befehle auflistet
 ## So sieht es aus
 
 <p align="center">
-  <img src="screenshots/2026-06-05_20-00-38-894.png" alt="uDocker — Hauptansicht" width="760"><br>
+  <img src="screenshots/2026-06-06_20-45-29-005.png" alt="uDocker — Hauptansicht" width="760"><br>
   <em>Hauptansicht: Container und Modelle mit Speicheraufteilung, Auslastung und Steuerung per Klick</em>
 </p>
 
