@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-  <img src="screenshots/2026-06-05_20-00-38-894.png" alt="uDocker — Hauptansicht mit Modellen, Speicheraufteilung und Profilen" width="760">
+  <img src="screenshots/2026-06-06_18-18-48-955.png" alt="uDocker — Hauptansicht mit Modellen, Speicheraufteilung und Profilen" width="760">
 </p>
 
 ---
@@ -43,6 +43,7 @@ uDocker zeigt Ihnen alle Ihre Container auf einen Blick und lässt Sie sie **mit
 - Container starten und stoppen, Protokolle ansehen — alles per Mausklick.
 - Sehen Sie sofort, **wie viel Arbeitsspeicher und Grafikspeicher** gerade verbraucht wird.
 - Besonders praktisch für **lokale KI-Modelle**: Sie sehen die Auslastung und wechseln Modelle bequem.
+- **Lange Listen schnell filtern** — nach Name, Modell oder Image suchen und wahlweise nur die laufenden oder nur die Modelle anzeigen.
 - Steuern Sie alles auch **vom Handy oder einem anderen Gerät** im selben Netzwerk — direkt im Browser.
 
 ---
@@ -69,6 +70,13 @@ Speziell für lokale Sprachmodelle gemacht: Sie sehen die Grafikspeicher-Auslast
 <td>
 <strong>Speicher immer im Blick</strong><br>
 Übersichtliche Balken zeigen Ihnen, wie viel Arbeitsspeicher und Grafikspeicher belegt ist — so wissen Sie jederzeit, wie viel Luft noch bleibt.
+</td>
+</tr>
+<tr>
+<td width="80" align="center"><h1>🛡️</h1></td>
+<td>
+<strong>Schutz vor Überlastung</strong><br>
+Reicht der freie Speicher für ein Modell nicht aus, lässt uDocker es gar nicht erst starten und warnt Sie rechtzeitig — so bleibt immer etwas Reserve frei und Ihr Rechner reagiert weiter.
 </td>
 </tr>
 <tr>
@@ -122,6 +130,7 @@ uDocker bringt eine übersichtliche Seite mit, die alle Steuer-Befehle auflistet
 | Preis | **Kostenlos nutzbar** | Teils kostenpflichtig |
 | Ressourcenbedarf | **Sehr gering (native App)** | Oft hoch |
 | KI-Modelle (Grafikspeicher) | **Eingebaut, mit Anzeige** | Meist nicht vorhanden |
+| Schutz vor Speicher-Überlastung | **Ja, blockt zu große Modelle** | Nein |
 | Profile (Container-Gruppen) | **Ja, mit einem Klick** | Selten |
 | Vom Handy steuerbar | **Ja, im Browser** | Teilweise |
 | Im Hintergrund + Symbolleiste | **Ja** | Teilweise |
@@ -133,6 +142,12 @@ uDocker bringt eine übersichtliche Seite mit, die alle Steuer-Befehle auflistet
 <p align="center">
   <img src="screenshots/2026-06-05_20-00-38-894.png" alt="uDocker — Hauptansicht" width="760"><br>
   <em>Hauptansicht: Container und Modelle mit Speicheraufteilung, Auslastung und Steuerung per Klick</em>
+</p>
+
+
+<p align="center">
+  <img src="screenshots/2026-06-06_18-17-45-310.png" alt="uDocker — Warnung, wenn der Speicher für ein Modell nicht ausreicht" width="760"><br>
+  <em>Schutz vor Überlastung: Reicht der freie Speicher nicht aus, lässt uDocker das Modell gar nicht erst starten — mit klarer Angabe von Bedarf und freiem Platz</em>
 </p>
 
 
@@ -151,11 +166,20 @@ Für jedes KI-Modell zeigt uDocker auf einen Blick, was es gerade tut und wie vi
 - **Live-Last** — wie stark das Modell aktuell beansprucht wird (KV-Cache-Füllung und Anzahl der laufenden Anfragen).
 - **Speicherort** — der Ordner des Modells, direkt anklickbar; fehlt der Ordner, wird das farblich hervorgehoben.
 - **Adresse & Freigabe** — der Port des Modells und ein Klick, um es im Netzwerk freizugeben.
+- **Anwendungsfälle** — eine aufklappbare Liste, wofür sich das Modell besonders eignet (z. B. Programmieren, Übersetzen, Textanalyse) — so wählen Sie schnell das passende Modell für Ihre Aufgabe.
 - **Modell-Steckbrief** — Herkunft, Kontextgröße und Bauart in Klartext, z. B.:
 
   > *google/gemma-4-26B-A4B-it · 32K · MoE (Gemma 4, 4B aktiv) → 26B-Qualität bei 4B-Geschwindigkeit (ideal für DGX Spark)*
 
 So sehen Sie sofort, welches Modell sich für welche Aufgabe lohnt — und welches gerade Speicher belegt, den Sie vielleicht freigeben möchten.
+
+---
+
+## Beispiel-Modelle (vLLM) zum Loslegen
+
+Sie möchten nicht bei null anfangen? Wir stellen ein fertiges Paket mit **vorbereiteten Modell-Konfigurationen** bereit (Modell-Liste und passende Setup-Dateien) — als Vorlage, an der Sie sich orientieren oder die Sie direkt übernehmen können.
+
+➡️ **[Beispiel-Modelle herunterladen (ZIP)](LLM-Models/LLM-Models-2026-06-06.zip)**
 
 ---
 
@@ -202,14 +226,23 @@ Immer die neueste Version gibt es auf der **[Releases-Seite](https://github.com/
 1. **Docker starten** (Docker Desktop bzw. den Docker-Dienst).
 2. **uDocker öffnen** — alle Container erscheinen automatisch in der Liste.
 3. Container mit den Schaltflächen **Starten** / **Stoppen** steuern, **Logs** zum Ansehen der Protokolle.
-4. Den **Speicher-Balken** im Blick behalten, um die Auslastung zu sehen.
-5. Optional: einen Zustand als **Profil speichern** und später mit einem Klick wiederherstellen.
+4. Bei vielen Einträgen die Liste **filtern** — über das Suchfeld (Name, Modell oder Image) oder mit den Schaltern **„Nur laufende"** / **„Nur Modelle"**.
+5. Den **Speicher-Balken** im Blick behalten, um die Auslastung zu sehen.
+6. Optional: einen Zustand als **Profil speichern** und später mit einem Klick wiederherstellen.
 
 ### Vom Handy oder einem anderen Gerät zugreifen
 
 1. In uDocker auf **„Web-Freigabe starten"** klicken.
 2. Die angezeigte Adresse (z. B. `http://192.168.0.x`) am Handy oder einem anderen Computer im **selben Netzwerk** im Browser öffnen.
 3. Sie sehen dieselbe Oberfläche und können Ihre Container von überall im Heim- oder Büronetz steuern.
+
+### Eingebaute Steuer-Doku öffnen
+
+Nach dem Start der Web-Freigabe erreichen Sie eine übersichtliche Liste **aller Steuer-Befehle** direkt im Browser — am Rechner selbst oder von einem anderen Gerät im Netzwerk:
+
+`http://<Rechner-IP>:9437/docs` &nbsp;(zum Beispiel `http://192.168.0.200:9437/docs`)
+
+So können auch KI-Assistenten wie **Claude Code** die passenden Befehle nachschlagen und Modelle bei Bedarf automatisch öffnen und schließen.
 
 ---
 
