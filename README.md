@@ -193,23 +193,19 @@ Sie möchten nicht bei null anfangen? Wir stellen ein fertiges Paket mit **vorbe
 
 Immer die neueste Version gibt es auf der **[Releases-Seite](https://github.com/UgurCigdem/uDocker/releases/latest)**. Wählen Sie für normale 64-bit-PCs die `amd64`/`x86_64`-Datei, für ARM-Geräte (z. B. DGX Spark) die `arm64`/`aarch64`-Datei.
 
-#### Version v26.6.618 (aktuell)
-
-| Plattform | Architektur | Format | Datei | Größe |
-|-----------|-------------|--------|-------|-------|
-| **Windows** | x64 | Installer | [uDocker_26.6.618_x64-setup.exe](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_x64-setup.exe) | 4.7 MB |
-| **Windows** | x64 | MSI | [uDocker_26.6.618_x64_en-US.msi](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_x64_en-US.msi) | 6.5 MB |
-| **Windows** | ARM64 | Installer | [uDocker_26.6.618_arm64-setup.exe](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_arm64-setup.exe) | 4.3 MB |
-| **Windows** | ARM64 | MSI | [uDocker_26.6.618_arm64_en-US.msi](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_arm64_en-US.msi) | 6.2 MB |
-| **Linux** (Ubuntu/Debian) | x86_64 | .deb | [uDocker_26.6.618_amd64.deb](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_amd64.deb) | 7.9 MB |
-| **Linux** (Ubuntu/Debian) | ARM64 | .deb | [uDocker_26.6.618_arm64.deb](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_arm64.deb) | 7.8 MB |
-| **Linux** (Fedora/openSUSE) | x86_64 | .rpm | [uDocker-26.6.618-1.x86_64.rpm](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker-26.6.618-1.x86_64.rpm) | 7.9 MB |
-| **Linux** (Fedora/openSUSE) | aarch64 | .rpm | [uDocker-26.6.618-1.aarch64.rpm](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker-26.6.618-1.aarch64.rpm) | 7.8 MB |
-| **Linux** (portabel) | x86_64 | AppImage | [uDocker_26.6.618_amd64.AppImage](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_amd64.AppImage) | 81.5 MB |
-| **Linux** (portabel) | aarch64 | AppImage | [uDocker_26.6.618_aarch64.AppImage](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_aarch64.AppImage) | 79.7 MB |
-| **macOS** | Apple Silicon | .dmg | [uDocker_26.6.618_aarch64.dmg](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/uDocker_26.6.618_aarch64.dmg) | 6.7 MB |
-
-<sub>Optionaler Headless-Dienst (Companion-Binärdatei): [udocker-serve](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/udocker-serve) (Linux/macOS) · [udocker-serve.exe](https://github.com/UgurCigdem/uDocker/releases/download/v26.6.618/udocker-serve.exe) (Windows)</sub>
+| Plattform | Architektur | Format |
+|-----------|-------------|--------|
+| **Windows** | x64 | Installer |
+| **Windows** | x64 | MSI |
+| **Windows** | ARM64 | Installer |
+| **Windows** | ARM64 | MSI |
+| **Linux** (Ubuntu/Debian) | x86_64 | .deb |
+| **Linux** (Ubuntu/Debian) | ARM64 | .deb |
+| **Linux** (Fedora/openSUSE) | x86_64 | .rpm |
+| **Linux** (Fedora/openSUSE) | aarch64 | .rpm |
+| **Linux** (portabel) | x86_64 | AppImage |
+| **Linux** (portabel) | aarch64 | AppImage |
+| **macOS** | Apple Silicon | .dmg |
 
 #### Installation nach dem Download
 
